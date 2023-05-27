@@ -1,0 +1,312 @@
+/* style of the whole body*/
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: whitesmoke;
+}
+.home-section{
+    width: 100%;
+    height: 320px;
+    color: white;
+    background: black;
+    margin-top: -25px;
+}
+.home-section h1{
+    padding-top: 40px;
+    padding-left: 42%;
+}
+.icon-flex{
+    display: flex;
+    align-items: center;
+    margin-top: 6%;
+    justify-content: space-between;
+}
+.icon{
+    
+}
+.icon a{
+    text-decoration: none;
+    margin-left: 40px;
+    
+}
+.icon a i{
+     color: white;
+     
+}
+.icon-flex button{
+    margin-right: 10%;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+}
+.icon-flex button a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.profile img{
+    width: 250px;
+    margin-left: 40%;
+    border-radius: 50%;
+    
+}
+/* the link begins*/
+.link ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12%;
+    padding-left: 10px;
+}
+.link ul li{
+    list-style: none;
+    margin-left: 18px;
+}
+.link ul li a{
+    text-decoration: underline;
+    color: black;
+}
+.link ul li a:hover{
+    color: blue;
+}
+.link ul li a:active{
+    color: red;
+}
+.intro{
+
+    width: 100%;
+    background: whitesmoke;
+}
+.intro h2{
+    padding-left: 36%;
+    font-size: 28px;
+    color: rgb(81, 74, 74);
+}
+.intro h2 span{
+    padding-left: 10%;
+}
+.intro h2 span i{
+    padding-left: 3%;
+}
+/* about start*/
+.about{
+    width: 100%;
+    background: whitesmoke;
+    height: auto;
+}
+.about h2{
+    margin-left: 48%;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.about p{
+    margin-left: 20%;
+    font-size: 16px;
+    flex-wrap: wrap;
+    
+    
+}
+.education{
+    margin-top: 0;
+    background: ;
+    width: 100%;
+    height: 420px;
+    
+}
+.education .person img{
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+.education h2{
+    margin-left: 43%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: black;
+    padding-top: 20px;
+}
+/*cert*/
+
+.cert{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: ;
+    margin-top: 5%;
+}
+.cert-one i{
+    font-size: 22px;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #d1bebe;
+}
+
+
+.person {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.person p{
+    color: #fff;
+    margin-right: 20%;
+    font-size: 22px;
+}
+.education button{
+    margin-left: 50%;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+}
+.education button a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.contact{
+    width: 100%;
+    height: 300px;
+}
+
+.contact h2{
+    margin-left: 43%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000;
+    padding-top: 2px;
+}
+
+.fash{
+    display: flex;
+    align-items: center;
+    justify-content: ;
+    background: white;
+    width: 60%;
+    margin-left: 20%;
+    box-shadow:  #343232;
+    border-radius: 15px;
+
+}
+.fash ul {
+    margin-left: 10%;
+}
+.fash ul li{
+    margin-top: 13px;
+    font-size: 20px;
+    color: black;
+}
+.fash ul li a{
+    color: black;
+
+}
+.fash ul li a:hover{
+    color: red;
+}
+.project{
+    width: 100%;
+    height: 900px;
+    background: whitesmoke;
+   
+
+}
+.project h2{
+    margin-left: 43%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000;
+    padding-top: 15px;
+
+}
+.grid{
+    width: 500px;
+    background: white;
+    border-radius: 15px;
+    height: 250px;
+    margin-left: 30%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.grid h1{
+    padding-top: 30px;
+    padding-left: 15%;
+    font-weight: bolder;
+    color: #333;
+}
+
+.grid p{
+    margin-left: 20px;
+}
+
+
+
+
+.project button{
+    margin-left: 47%;
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    border: 0;
+    margin-top: 20px;
+}
+.project button a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.project button:hover{
+    background-color: royalblue;
+    
+}
+.skills {
+    width: 100%;
+    background: whitesmoke;
+    height: auto;
+}
+.skills h2{
+    margin-left: 43%;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #000;
+    padding-top: 2px;
+}
+.skills p{
+    margin-left: 20%;
+}
+.title{
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-style: italic;
+    justify-content: space-evenly;
+    background: whitesmoke;
+    border-bottom: #333;
+}
+.contact h1{
+    margin-left: 42%;
+    margin-top: 20px;
+    
+}
+.contact p{
+    margin-left: 30%;
+    font-size: 20px;
+}
+.contact p span{
+    margin-left: 110px;
+}
+
+#list{
+    margin-left: 36%;
+    
+}
+#list a{
+    margin-left: 20px;
+}
